@@ -48,7 +48,7 @@
                 <p><a href="https://github.com/SteveWooding/fullstack-nanodegree-vm/tree/master/vagrant/catalog">Link to project</a></p>
             </div>
             <div class="col-md-4 col-sm-6 text-center">
-                <img class="img-responsive center-block" src="http://placehold.it/360x292" title="Click for more info">
+                <img class="img-responsive center-block" src="images/tournament-360x292.png" title="Click for more info" data-toggle="modal" data-target="#project4">
                 <h3 class="text-uppercase">Tournament Results</h3>
                 <p><a href="https://github.com/SteveWooding/fullstack-nanodegree-vm/tree/master/vagrant/tournament">Link to project</a></p>
             </div>
@@ -65,7 +65,7 @@
         </div>
     </div>
 
-    <!-- Modal -->
+    <!-- Modal for Linux config project -->
     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="linuxConfig" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -87,6 +87,7 @@
         </div>
     </div>
 
+    <!-- Modal for Conference project -->
     <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="confApp" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -105,6 +106,7 @@
         </div>
     </div>
 
+    <!-- Modal for Catalog app -->
     <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="catalogApp" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -115,6 +117,26 @@
                     <img class="img-responsive modal-img" src="images/catalog-555x300.png">
                     Developed a content management system using the Flask framework in Python. Authentication
                     is provided via OAuth and all data is stored within an SQL database.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Tournament project -->
+    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="tournament" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="tournament">Tournament Results</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive modal-img" src="images/tournament-555x300.png">
+                    Built a PostgreSQL relational database scheme to store the results of a game
+                    tournament. Also provided a number of queries to efficiently report the results
+                    of the tournament and determine the winner.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
