@@ -24,6 +24,10 @@ hr {
     border-top: 2px solid #bbbab9;
 }
 
+.container {
+    margin-top: 1em;
+}
+
 .modal-img {
     margin-bottom: 1em;
 }
