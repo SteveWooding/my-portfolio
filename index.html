@@ -38,7 +38,7 @@
                 <p><a href="https://github.com/SteveWooding/fullstack-nanodegree-linux-server-config">Link to project</a></p>
             </div>
             <div class="col-md-4 col-sm-6 text-center">
-                <img class="img-responsive center-block" src="http://placehold.it/360x292" title="Click for more info">
+                <img class="img-responsive center-block" src="images/conference-360x292.jpg" title="Click for more info" data-toggle="modal" data-target="#project2">
                 <h3 class="text-uppercase">Conference Organisation App</h3>
                 <p><a href="https://github.com/SteveWooding/fullstack-nanodegee-conference">Link to project</a></p>
             </div>
@@ -66,17 +66,37 @@
     </div>
 
     <!-- Modal -->
-    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="linuxConfig" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Linux Server Configuration</h4>
+                    <h4 class="modal-title" id="linuxConfig">Linux Server Configuration</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="images/linux-config-555x300.png">
+                    <img class="img-responsive modal-img" src="images/linux-config-555x300.png">
+                    <p>
                     Installed and configured all required software to turn a baseline Ubuntu Amazon Web Services server
                     into a fully functional web application server, including Apache Web Server and PostgreSQL database
                     server.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="confApp" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="confApp">Conference Organisation App</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive modal-img" src="images/conference-555x300.jpg">
+                    Using Google App Engine's Endpoints API, built the Python backend to support a web- and
+                    Android-based conference organization application.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
