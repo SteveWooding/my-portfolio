@@ -36,6 +36,16 @@ hr {
     margin-bottom: 1em;
 }
 
+.footer {
+    height: 4em;
+    background-color: #f7f7f7;
+
+}
+
+.footer > div {
+    margin-top: 1.5em;
+}
+
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     h3 {
         min-height: 2.3em;

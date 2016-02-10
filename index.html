@@ -23,7 +23,7 @@
         <div class="row">
             <div class="col-md-12">
                 <hr/>
-                <img class="img-responsive" src="images/code.png">
+                <img class="img-responsive" src="images/code.png" data-toggle="modal" data-target="#about">
             </div>
         </div>
         <div class="row">
@@ -63,6 +63,17 @@
                 <p><a href="https://bitbucket.org/stevenwooding/360ify">Link to project on BitBucket</a></p>
             </div>
         </div>
+
+        <div class="row footer">
+            <div class="col-md-6 col-sm-6 col-xs-6">
+                <a href="#" data-toggle="modal" data-target="#about">About this website</a>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+                <a href="https://github.com/SteveWooding/my-portfolio" data-toggle="modal" data-target="#about">
+                This site on GitHub</a>
+            </div>
+        </div>
+
     </div>
 
     <!-- Modal for Linux config project -->
@@ -178,6 +189,27 @@
                     A Bootstrap website featuring some of my photosphere photographs and virtual tours.
                     Uses PHP includes to be more DRY (Don't Repeat Yourself).
                     The webiste is live at <a href="http://360ify.com" target="_blank">360ify.com</a>.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for about this website -->
+    <div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="about" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="about">About this website</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive modal-img" src="images/portfolio-555x300.png">
+                    This is a responsive website built using the <a href="http://getbootstrap.com/">
+                    Bootstrap</a framework and custom CSS.
+                    The source code can be found on my GitHub account
+                    <a href="https://github.com/SteveWooding/my-portfolio" target="_blank">here</a>.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
