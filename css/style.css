@@ -36,6 +36,10 @@ hr {
     margin-bottom: 1em;
 }
 
+a:focus {
+    outline-color: #5d614e;
+}
+
 .footer {
     height: 4em;
     background-color: #f7f7f7;
