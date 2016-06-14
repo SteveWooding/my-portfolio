@@ -47,6 +47,18 @@
         </p>
       </div>
       <div class="col-md-4 col-sm-6 text-center project-item">
+        <a href="#" data-toggle="modal" data-target="#projectgamestats">
+          <img class="img-responsive center-block" src="images/gamestats-360x292.png"
+            alt="Screenshot of Game Statistics">
+        </a>
+        <h3 class="text-uppercase">AngularJS: Game Statistics</h3>
+        <p>
+          <a href="https://github.com/SteveWooding/coc-clan-manager">
+            Link to project on GitHub
+          </a>
+        </p>
+      </div>
+      <div class="col-md-4 col-sm-6 text-center project-item">
         <a href="#" data-toggle="modal" data-target="#projectgame">
           <img class="img-responsive center-block" src="images/arcade-game-360x292.png"
             alt="Screenshot of simple arcade game">
@@ -162,6 +174,32 @@
             <a href="https://www.lynda.com/AngularJS-tutorials/Creating-Calculation-Tool-AngularJS/424042-2.html">
             Creating a Calculation Tool with AngularJS 1</a>. A live version of this project can be
             found at <a href="https://bulbcompare.com">bulbcompare.com</a>.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for AngularJS Game Stats project -->
+  <div class="modal fade" id="projectgamestats" tabindex="-1" role="dialog"
+    aria-labelledby="projectgamestats" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="projectgamestats">AngularJS Project: Game Statistics</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive modal-img" src="images/gamestats-555x300.png">
+          <p>
+            This project uses an AngularJS frontend that gets data from a Python Flask backend.
+            The data comes from a public API that the game creator has made available. To enable
+            further long term analysis and to avoid API limits, the data is stored in a PostgreSQL
+            database. The Angular frontend allows for instant sorting of the data on any column,
+            without any calls back to the server. You can see it in action
+            <a href="https://clashman.empiresteve.com">here</a>.
           </p>
         </div>
         <div class="modal-footer">
